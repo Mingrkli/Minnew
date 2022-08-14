@@ -1,0 +1,156 @@
+newsData = [
+    {
+        img: 'img/duck.jpg',
+        imgCredit: 'Ross Sokolovski',
+        imgCreditLink: 'https://unsplash.com/es/@ross_sokolovski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'News',
+        title: 'Quack Quack',
+        titleLink: 'page/duck.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/duck.jpg',
+        imgCredit: 'Ross Sokolovski',
+        imgCreditLink: 'https://unsplash.com/es/@ross_sokolovski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'News',
+        title: 'Quack Quack',
+        titleLink: 'page/duck.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/car.jpg',
+        imgCredit: 'Dhiva Krishna',
+        imgCreditLink: 'https://unsplash.com/@dhivakrishna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'Reviews',
+        title: 'How is the new car?',
+        titleLink: 'page/car.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/pizza.jpg',
+        imgCredit: 'Shourav Sheikh',
+        imgCreditLink: 'https://unsplash.com/@shouravsheikh01?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'Reviews',
+        title: 'Best Pizza?',
+        titleLink: 'page/pizza.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/duck.jpg',
+        imgCredit: 'Ross Sokolovski',
+        imgCreditLink: 'https://unsplash.com/es/@ross_sokolovski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'News',
+        title: 'Quack Quack',
+        titleLink: 'page/duck.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/duck.jpg',
+        imgCredit: 'Ross Sokolovski',
+        imgCreditLink: 'https://unsplash.com/es/@ross_sokolovski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'News',
+        title: 'Quack Quack',
+        titleLink: 'page/duck.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/new-place.jpg',
+        imgCredit: 'No Revisions',
+        imgCreditLink: 'https://unsplash.com/@norevisions?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'News',
+        title: 'Huge Successful Launch!',
+        titleLink: 'page/new-place.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/pizza.jpg',
+        imgCredit: 'Shourav Sheikh',
+        imgCreditLink: 'https://unsplash.com/@shouravsheikh01?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'Reviews',
+        title: 'Best Pizza?',
+        titleLink: 'page/pizza.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/duck.jpg',
+        imgCredit: 'Ross Sokolovski',
+        imgCreditLink: 'https://unsplash.com/es/@ross_sokolovski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'News',
+        title: 'Quack Quack',
+        titleLink: 'page/duck.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/pizza.jpg',
+        imgCredit: 'Shourav Sheikh',
+        imgCreditLink: 'https://unsplash.com/@shouravsheikh01?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'Reviews',
+        title: 'Best Pizza?',
+        titleLink: 'page/pizza.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/duck.jpg',
+        imgCredit: 'Ross Sokolovski',
+        imgCreditLink: 'https://unsplash.com/es/@ross_sokolovski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'News',
+        title: 'Quack Quack',
+        titleLink: 'page/duck.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/new-place.jpg',
+        imgCredit: 'No Revisions',
+        imgCreditLink: 'https://unsplash.com/@norevisions?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'News',
+        title: 'Huge Successful Launch!',
+        titleLink: 'page/new-place.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/pizza.jpg',
+        imgCredit: 'Shourav Sheikh',
+        imgCreditLink: 'https://unsplash.com/@shouravsheikh01?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'Reviews',
+        title: 'Best Pizza?',
+        titleLink: 'page/pizza.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+    {
+        img: 'img/car.jpg',
+        imgCredit: 'Dhiva Krishna',
+        imgCreditLink: 'https://unsplash.com/@dhivakrishna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
+        genre: 'Reviews',
+        title: 'How is the new car?',
+        titleLink: 'page/car.html',
+        shortDesc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nostrum repellat rem aperiam quisquam quia nam, officiis libero. Praesentium quaerat, ipsam culpa optio excepturi fugiat exercitationem doloremque dolorum cum. Aliquid!',
+        author: 'Cool Person',
+        comment: 4
+    },
+]

@@ -1,0 +1,165 @@
+/* Grid
+=============================================================================================== */
+.grid-base {
+    --grid-radius: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-card {
+    position: relative;
+
+    height: 100%;
+
+    border-radius: var(--grid-radius);
+    border: 2px solid transparent;
+
+    transition: 200ms ease-in-out;
+    overflow: hidden;
+}
+
+.grid-base > .grid-card:hover {
+    border: 2px solid #fff;
+
+    background-color: var(--c-black-semi-transparent);
+    box-shadow: 0 0 40px 10px var(--c-sub);
+
+    z-index: 110;
+}
+
+body[data-light-mode] .grid-card:hover {
+    background-color: var(--c-light-semi-transparent);
+}
+
+.grid-base > .grid-card:hover::before,
+.grid-base > .grid-card:hover::after {
+    border: none;
+}
+
+.grid-base > .grid-card::before {
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 90%;
+    border-bottom: 1px solid var(--c-sub);
+}
+
+.grid-base > .grid-card::after {
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+    height: 90%;
+    border-right: 1px solid var(--c-sub);
+}
+
+/* Grid Img
+=============================================================================================== */
+.grid-card-img {
+    position: relative;
+}
+
+.grid-card-img img {
+    height: 400px;
+    width: 100%;
+    padding: 1rem;
+
+    border-radius: var(--grid-radius) var(--grid-radius) 0 0;
+    
+    object-fit: cover;
+    transition: 200ms;
+}
+
+.grid-card-img .credit {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+
+    display: none;
+    padding: 0 1rem;
+
+    font-size: .7rem;
+    color: var(--c-main-text);
+    background-color: var(--c-black-semi-transparent);
+    border-radius: 50px;
+}
+
+body[data-light-mode] .credit {
+    background-color: var(--c-light-semi-transparent);
+}
+
+.grid-base > .grid-card:hover .credit {
+    display: block;
+}
+
+.grid-card-img .credit a {
+    color: var(--c-main-text);
+}
+
+.grid-card-img .credit a:hover {
+    color: var(--c-sub-light);
+    text-decoration: underline;
+}
+
+.grid-card:hover img {
+    padding: 0;
+}
+
+/* Grid Text
+=============================================================================================== */
+.grid-card-text {
+    padding: 0 1rem 1rem;
+}
+
+.grid-card-text-genre, .grid-card-text-title, .grid-card-text-description, .grid-card-author {
+    margin-top: .5rem;
+}
+
+.grid-card-text-genre {
+    display: inline-block;
+    padding: 0 10px;
+
+    font-size: 1rem;
+
+    color: var(--c-main-text);
+    background-color: var(--c-sub);
+    border-radius: var(--grid-radius);
+}
+
+.grid-card-text-title {
+    display: flex;
+    align-items: center;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--c-main-text);
+    text-decoration: none;
+
+    transition: 200ms ease-in-out;
+}
+
+.grid-card-text-title:hover {
+    color: var(--c-sub);
+}
+
+.grid-card-text-title span {
+    margin-left: 5px;
+}
+
+.grid-card-text-description {
+    font-size: 1rem;
+    color: var(--c-main-text);
+}
+
+.grid-card-author {
+    font-size: .8rem;
+    color: var(--c-main-text-transparent);
+}
